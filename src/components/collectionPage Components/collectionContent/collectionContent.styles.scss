@@ -1,0 +1,21 @@
+.collection{
+  display: grid;
+  grid-auto-rows: min-content;
+
+  ////////////////// title
+
+
+  //////////////////actions
+
+}
+
+/////////////////pagination
+
+
+.active{
+  background-color: var(--color-primary);
+  color: var(--color-grey-light-1);
+  &:hover{
+    color: var(--color-grey-light-1)!important;
+  }
+}

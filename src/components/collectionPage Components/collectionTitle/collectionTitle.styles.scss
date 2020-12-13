@@ -1,0 +1,20 @@
+.collection{
+  &__title{
+    padding: 1rem 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--color-grey-dark-2);
+    margin-left: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__categories{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

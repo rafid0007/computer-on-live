@@ -1,0 +1,17 @@
+.index{
+  grid-column: 1/-1;
+  background-color: var(--color-grey-light-2);
+  height: 4rem;
+  padding: 0 10rem;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+
+  &__icon{
+    height: 1.8rem;
+    width: 1.8rem;
+    fill: var(--color-primary);
+    margin-right: .5rem;
+    cursor: pointer;
+  }
+}

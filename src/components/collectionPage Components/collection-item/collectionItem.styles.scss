@@ -1,0 +1,60 @@
+.item{
+  background-color: #fff;
+  color: var(--color-grey-dark-1);
+  box-shadow: 0 .5rem 2rem rgba(#000, .1);
+  //overflow: hidden;
+  height: 35rem;
+  display: flex;
+  border-radius: 3px;
+  overflow: hidden;
+
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+  transition: all .2s;
+
+  &:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 3rem rgba(#000, .2);
+  }
+
+  &__image{
+    height: 70%;
+    cursor: pointer;
+
+    img{
+      width: 100%;
+      height: 100%;
+      //object-fit: cover;
+      //object-position: center;
+      display: block;
+    }
+  }
+
+  &__title{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    &:hover{
+      cursor: pointer;
+    }
+  }
+
+  &__price{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    align-self: center;
+    font-size: 1.8rem;
+    //display: flex;
+    //align-items: center;
+    color: var(--color-primary-dark);;
+    svg{
+      height: 1.5rem;
+      width: 1.5rem;
+      fill: var(--color-primary-dark);
+      margin-left: .2rem;
+    }
+  }
+}

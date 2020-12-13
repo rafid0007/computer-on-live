@@ -1,0 +1,15 @@
+@import "src/sass/variables";
+
+.display{
+  font-family: 'Poppins', sans-serif;
+  font-size: 6rem;
+  font-weight: 200;
+  color: var(--color-grey-light-1);
+  text-transform: capitalize;
+  text-align: center;
+  padding: 4rem 2.5rem;
+  background-image: linear-gradient(to right, rgba(#333, 0.9), rgba(#333, 0.9)),
+                  url("./img/hero-image.jpg");
+  background-size: cover;
+  background-position: center;
+}

@@ -1,0 +1,14 @@
+.collectionPageWrapper{
+  display: flex;
+  padding-top: 7rem;
+}
+
+
+.collectionPage{
+  //height: 80vh;
+
+  background-color: var(--color-grey-light-1);
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+
+}

@@ -1,0 +1,11 @@
+content bg - #2a2b30
+sidebar bg - #1c1d22
+font-family - 'Avenir Next', Avenir, 'Helvetica Neue', 'Lato', 'Segoe UI', Helvetica, Arial, sans-serif;
+text color - #cecece
+text headline color - #5c5edc
+text faded color - #474c4a
+
+
+bg -f7f7f7
+primary - 333333
+secondary - ffb900

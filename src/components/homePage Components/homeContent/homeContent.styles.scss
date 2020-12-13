@@ -1,0 +1,46 @@
+.homeContent{
+  padding: 1rem 0 1rem 1rem;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: 10vw;
+  grid-gap: .5rem;
+}
+
+.feature{
+  &__item {
+    overflow: hidden;
+
+    &--large {
+      grid-column: span 12;
+      grid-row: span 3;
+    }
+
+    &--medium {
+      grid-column: span 6;
+      grid-row: span 2;
+    }
+
+    &--small {
+      grid-column: span 4;
+      grid-row: span 2;
+    }
+
+    &--tiny {
+      grid-column: span 3;
+      grid-row: span 2;
+    }
+  }
+
+  &__photo{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    transition: all .5s;
+  }
+
+  &__item:hover &__photo{
+      transform: scale(1.2);
+    }
+}
